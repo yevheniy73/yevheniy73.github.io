@@ -1,6 +1,6 @@
 html,
 body {
-    margin: 0;
+    margin: 10%;
     border: 0;
     font-size: 100%;
     background-color: #000000;
@@ -8,15 +8,12 @@ body {
 }
 
 a {
+    color: aquamarine;
     transition: color 300ms ease 0;
 }
 
-h2 a {
-    color: aquamarine;
-}
-
-h2 a:hover,
-h2 a:focus,
-h2 a:active {
+a:hover,
+a:focus,
+a:active {
     color: bisque;
 }
